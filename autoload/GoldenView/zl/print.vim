@@ -48,7 +48,7 @@ function! GoldenView#zl#print#echomsg(message, ...)
 endfunction
 
 function! GoldenView#zl#print#warning(message)
-    call GoldenView#zl#print#echomsg(a:message, {'hl':'WarningMsg'})
+    "call GoldenView#zl#print#echomsg(a:message, {'hl':'WarningMsg'})
 endfunction
 function! GoldenView#zl#print#error(message)
     call GoldenView#zl#print#echomsg(a:message, {'hl':'ErrorMsg'})
